@@ -147,4 +147,4 @@ Modify > Detail
  <!--------------------------------------------------------->
  ## ETC
  * VSCode
-    * Example
+   - <a href="https://github.com/Minssuy99/TIL/blob/main/ETC/VSCode_%EB%8B%A8%EC%B6%95%ED%82%A4.md" target="_blank">VSCode 단축키</a>
