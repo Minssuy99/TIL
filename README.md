@@ -3,8 +3,8 @@
 <!--------------------------------------------------------->
 # :books: Today I Learned
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FMinssuy99&count_bg=%238E9AFF&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://github.com/Minssuy99)
-* ¹è¿î °ÍÀ» ±â·ÏÇÕ´Ï´Ù.
-* [GitHub ¸¶Å©´Ù¿î ¹®¹ı](https://docs.github.com/ko/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+* ë°°ìš´ ê²ƒì„ ê¸°ë¡í•©ë‹ˆë‹¤..
+* [GitHub ë§ˆí¬ë‹¤ìš´ ë¬¸ë²•](https://docs.github.com/ko/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 
 
@@ -16,7 +16,7 @@
 <!--------------------------------------------------------->
 <!------------------------Rules---------------------------->
 <!--------------------------------------------------------->
-## :writing_hand: ÀÛ¼º±ÔÄ¢
+## :writing_hand: ì‘ì„±ê·œì¹™
 
 ```bash
 Add > Title
@@ -146,5 +146,5 @@ Modify > Detail
  <!---------------------------ETC--------------------------->
  <!--------------------------------------------------------->
  ## ETC
- * VSCODE
+ * VSCode
     * Example
