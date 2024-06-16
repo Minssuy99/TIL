@@ -97,7 +97,7 @@ Modify > Detail
 <!--------------------------------------------------------->
 ## PS (Problem Solving)
 
-<details>
+<details open>
 <summary>Bronze</summary>
 
 - <a href="https://naver.com" target="_blank">Example Number</a>
@@ -108,7 +108,7 @@ Modify > Detail
 <!--------------------------------------------------------->
 <!--------------------------------------------------------->
 
-<details>
+<details open>
 <summary>Silver</summary>
 
 - <a href="https://naver.com" target="_blank">Example Number</a>
@@ -119,7 +119,7 @@ Modify > Detail
 <!--------------------------------------------------------->
 <!--------------------------------------------------------->
 
-<details>
+<details open>
 <summary>Gold</summary>
 
 - <a href="https://naver.com" target="_blank">Example Number</a>
