@@ -21,7 +21,6 @@
 ```bash
 Add > Title
 Fix > Typo
-Modify > Detail
 Update > Info
 ```
 
@@ -65,7 +64,7 @@ Update > Info
 <!---------------------------Unity------------------------->
 <!--------------------------------------------------------->
 ## Unity
-
+* [Input System](https://github.com/Minssuy99/TIL/blob/main/Unity/Input_System.md)
 
 
 
@@ -148,4 +147,4 @@ Update > Info
  <!--------------------------------------------------------->
  ## ETC
  * VSCode
-   - <a href="https://github.com/Minssuy99/TIL/blob/main/ETC/VSCode_%EB%8B%A8%EC%B6%95%ED%82%A4.md" target="_blank">VSCode 단축키</a>
+   - [VSCode 단축키](https://github.com/Minssuy99/TIL/blob/main/ETC/VSCode_%EB%8B%A8%EC%B6%95%ED%82%A4.md)
