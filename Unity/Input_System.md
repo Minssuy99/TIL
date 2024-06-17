@@ -1,5 +1,23 @@
 # Input System
 
+## 목차
+* [Scheme](#scheme)
+    * [Requirement](#requirement)
+* [Action Type](#action-type)
+* [Interaction](#interaction)
+* [Processors](#processors)
+* [입력 처리](#입력-처리)
+    * [다이렉트 방식](#다이렉트-방식)
+    * [임베디드 방식](#임베디드-방식)
+    * [액션에셋 방식](#액션에셋-방식)
+    * [C# 제너레이트 방식](#c-제너레이트-방식)
+* [이벤트 처리 방식](#이벤트-처리-방식)
+    * [Send Message](#send-message)
+    * [Broadcast Message](#broadcast-message)
+    * [Invoke Unity Events](#invoke-unity-events)
+    * [Invoke C# Events](#invoke-c-events)
+* [Reference](#reference)
+
 ## Scheme
 
 * ### Requirement
@@ -32,6 +50,8 @@
         
         `Null` 처리는 `Input System`이 알아서 한다고 볼 수 있다.
 
+</br>
+
 ## Action Type
 
 * Button : 점프같이 단일성으로 누르고 떼는거에 쓰는 타입 (점프같은겅일듯?)
@@ -39,6 +59,8 @@
 * Value : 지속적으로 값을 변화하고자 할때 쓰는 타입 (기본적인 움직임?)
 
 * PassThrough : 
+
+</br>
 
 ## Interaction
 Interaction 과 Processor 적용은 Started 이후에 처리된다.
@@ -90,6 +112,7 @@ Interaction 과 Processor 적용은 Started 이후에 처리된다.
 
         이 시간 안에 키를 눌렀다 놓아야 탭으로 인정
 
+</br>
 
  ## Processors
 
@@ -102,6 +125,8 @@ Interaction 과 Processor 적용은 Started 이후에 처리된다.
     * _**invert**_
 
         값을 반전 시킴.
+
+</br>
 
 ## 입력 처리
 
@@ -138,6 +163,8 @@ if (keyboard.aKey.isPressed) // 누르고있는동안 계속 진행
 }
 ```
 
+</br>
+
 ### 임베디드 방식
 
 * 스크립트에서 `public InputAction moveAction` 과 같이 정의한다.
@@ -172,6 +199,8 @@ private void OnMove(InputAction.CallbackContext context)
     // 이동 처리 코드
 }
 ```
+
+</br>
 
 ### 액션에셋 방식
 
@@ -215,6 +244,7 @@ private void Jump(InputAction.CallbackContext context)
 }
 ```
 
+</br>
 
 ### C# 제너레이트 방식
 
@@ -259,6 +289,8 @@ public class PlayerInput : MonoBehaviour {
 }
 ```
 
+</br>
+
 ## 이벤트 처리 방식
 
 ### Send Message
@@ -277,9 +309,13 @@ void OnMove(InputValue value)
 }
 ```
 
+</br>
+
 ### Broadcast Message
 
 * `Send Message` 와 동일하지만, 해당 오브젝트 뿐만이 아니라 자식 오브젝트에게도 호출할 수 있다.
+
+</br>
 
 ### Invoke Unity Events
 
@@ -321,8 +357,13 @@ private void OnMovePerformed(InputAction.CallbackContext context)
 }
 ```
 
+</br>
+
 ### Invoke C# Events
 
 * `Invoke Unity Events` 와 비슷하지만, 코드로 이벤트를 직접 구독하고 처리한다.
 
 * 코드 내에서 이벤트를 설정하여 통합관리가 가능하지만 코드로 작성되다 보니 복잡해질 수 있다.
+
+## Reference
+[nekojara - Input Action의 3종류의 콜백 거동](https://nekojara.city/unity-input-system-action-callback#Interactions%E3%81%8CMulti%20Tap%E3%81%AE%E5%A0%B4%E5%90%88)
